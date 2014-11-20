@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="110dp"
+              android:layout_height="match_parent"
+              android:paddingLeft="10dp"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:background="@color/white">
+    <ImageView
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/profile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:contentDescription="@string/profile_tab_profile"/>
+    <TextView
+            android:id="@+id/profile_list_name"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1" android:layout_gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="4dip"
+            android:textColor="#000000"/>
+    <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:scaleType="centerCrop"
+            android:id="@+id/profile_list_used_image"
+            android:contentDescription="@string/profile_tab_in_use"/>
+</LinearLayout>

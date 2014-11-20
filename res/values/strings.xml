@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Estimote Profiler</string>
+
+    <string name="profile_tab">Profiles</string>
+    <string name="profile_tab_no_data">No profiles</string>
+    <string name="profile_tab_in_use">In use</string>
+    <string name="profile_tab_profile">Profile</string>
+
+    <string name="beacon_tab">Beacons</string>
+    <string name="beacon_tab_no_data">No beacons were discovered</string>
+
+    <color name="white">#FFFFFF</color>
+</resources>
